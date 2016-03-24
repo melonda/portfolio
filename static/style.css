@@ -1,6 +1,10 @@
 body {
 	margin: 2%;
+	font-family: cursive;
+	font-size: 20px;
 }
+
+
 
 @media only screen and (min-width: 400px){
 	#flag{
@@ -36,6 +40,11 @@ body {
 		float: right;
 		padding-left: 6%;
 	}
+	#navigation1 .navigation-1, #navigation2 .navigation-2, #navigation3 .navigation-3, #navigation4 .navigation-4{
+		background-color: #FF8000;
+	}
+
+
 }
 
 @media all and (min-width: 1100px){
