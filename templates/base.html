@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+{% block header %}
+	Put title here
+{% endblock %}
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="static/style.css">
+
+
+	
+</head>
+<body>
+	<header>
+		<img id = "flag" src="static/Flag.png" alt="Colorado Flag">
+		<!-- This also changes from page to page. Createsthe title for each page -->
+		{% block head %}
+		I should never see this content.  It should be replaced.
+		{% endblock %}
+
+
+  
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        	<li><a href = "index.html">Home</a></li>
+    		<li><a href = "activities.html">Activities</a></li>
+    		<li><a href = "cities.html">Cities</a></li>
+    		<li><a href = "parks.html">National Parks</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li><a href="#">Page 2</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 			<ul class="nav nav-pills nav-justified">
+    			<li class="active"><a href = "index.html">Home</a></li>
+    			<li><a href = "activities.html">Activities</a></li>
+    			<li><a href = "cities.html">Cities</a></li>
+    			<li><a href = "parks.html">National Parks</a></li>
+  			</ul> -->
+
+
+	</header>
+
+
+	<!-- Also changes from page to page. Creates -->
+	{% block content %}
+	I should never see this content.  It should be replaced.
+	{% endblock %}
+
+	<footer>
+
+
+
+
+		<a href = "https://www.colorado.gov">Colorado</a> 
+		<a href="http://www.colorado.com">Tourism</a> 
+		<a href="http://www.denverpost.com">News</a>
+
+		{% block foot %}
+		{% endblock %}
+
+		<p>Copyright &copy; Meagan Londa from the University of Michigan</p>
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>

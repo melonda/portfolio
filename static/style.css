@@ -1,0 +1,49 @@
+body {
+	margin: 2%;
+}
+
+@media only screen and (min-width: 400px){
+	#flag{
+		width: 20%;
+		float: right;
+		padding-left: 2%;
+	}
+	.facts{
+		border: black 3px dash;
+	}
+	body{
+		background-color: lightblue;
+	}
+	body img{
+		width: 50%;
+	}
+	footer a{
+		display: block;
+		text-align: center;
+		border: 3px solid black;
+		margin: 3px;
+		border-radius: 30px;
+		background-color: orange;
+	}
+
+}
+
+@media all and (min-width: 800px){
+	body{
+		background-color: pink;
+	}
+	#flag{
+		float: right;
+		padding-left: 6%;
+	}
+}
+
+@media all and (min-width: 1100px){
+	body{
+		background-color: yellow;
+	}
+	#flag{
+		float: right;
+		padding-left: 2%;
+	}
+}
