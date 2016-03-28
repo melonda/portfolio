@@ -1,6 +1,6 @@
 body {
 	margin: 2%;
-	font-family: cursive;
+	font-family: chalkduster;
 	font-size: 20px;
 }
 header{
@@ -9,7 +9,7 @@ header{
 }
 h1{
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 50px;
 	color: #CCCCCC;
 }
 h2{
@@ -19,8 +19,11 @@ h3{
 	font-weight: bold;
 }
 #navigation1 .navigation-1, #navigation2 .navigation-2, #navigation3 .navigation-3, #navigation4 .navigation-4{
-	background-color: #46895b;
+	background-color: pink;
 	color: #FFFF00;
+	font-family: "marker felt";
+	font-weight: bold;
+	text-transform: uppercase;
 	}
 	.facts{
 		border: black 3px dash;
@@ -45,9 +48,9 @@ h3{
 		background-color: 	#7fc9b1;
 		color: #003333;
 	}
-	body img{
+/*	body img{
 		width: 50%;
-	}
+	}*/
 	
 
 }
