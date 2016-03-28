@@ -10,6 +10,7 @@ header{
 h1{
 	font-weight: bold;
 	font-size: 45px;
+	color: #CCCCCC;
 }
 h2{
 	font-weight: bold;
@@ -18,9 +19,8 @@ h3{
 	font-weight: bold;
 }
 #navigation1 .navigation-1, #navigation2 .navigation-2, #navigation3 .navigation-3, #navigation4 .navigation-4{
-	background-color: #000080;
+	background-color: #46895b;
 	color: #FFFF00;
-	margin-top: 40px;
 	}
 	.facts{
 		border: black 3px dash;
@@ -42,7 +42,8 @@ h3{
 	}*/
 
 	body{
-		background-color: lightblue;
+		background-color: 	#7fc9b1;
+		color: #003333;
 	}
 	body img{
 		width: 50%;
