@@ -37,6 +37,12 @@ h3{
 		border-radius: 30px;
 		background-color: orange;
 	}
+
+	.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
 @media only screen and (min-width: 400px){
 /*	#flag{
 		width: 20%;
@@ -48,15 +54,11 @@ h3{
 		background-color: 	#7fc9b1;
 		color: #003333;
 	}
-/*	body img{
+	body img{
 		width: 50%;
-	}*/
+	}
 
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+
 
 	
 
