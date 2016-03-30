@@ -6,11 +6,13 @@ body {
 header{
 	background-image: url("Flag.png");
 	background-size: contain;
+	color: blue;
+	font-weight: bolder;
 }
-h1{
+header .title{
 	font-weight: bold;
-	font-size: 50px;
-	color: #CCCCCC;
+	font-size: 55px;
+	color: white;
 }
 h2{
 	font-weight: bold;
@@ -56,6 +58,7 @@ h3{
 	body{
 		background-color: 	#7fc9b1;
 		color: #003333;
+		back
 	}
 	body img{
 		width: 60%;
@@ -70,7 +73,7 @@ h3{
 
 @media all and (min-width: 800px){
 	body{
-		background-color: pink;
+		background-color: #7fc9b1;
 	}
 
 
@@ -79,7 +82,11 @@ h3{
 
 @media all and (min-width: 1100px){
 	body{
-		background-color: yellow;
+		background-color: #46895b;
+		color: #1f1f87;
+		background-image: url("CO.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
 	}
 	#flag{
 		float: right;
