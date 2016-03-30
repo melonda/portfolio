@@ -7,7 +7,6 @@ header{
 	background-image: url("Flag.png");
 	background-size: contain;
 	color: blue;
-	font-weight: bolder;
 }
 header .title{
 	font-weight: bold;
@@ -19,6 +18,11 @@ h2{
 }
 h3{
 	font-weight: bold;
+	font-size: 30px;
+}
+h4{
+	font-weight: bold;
+	font-size: 25px;
 }
 #navigation1 .navigation-1, #navigation2 .navigation-2, #navigation3 .navigation-3, #navigation4 .navigation-4{
 	background-color: pink;
@@ -37,7 +41,11 @@ h3{
 		border: 3px solid black;
 		margin: 3px;
 		border-radius: 30px;
-		background-color: orange;
+		background-color: white;
+		margin: 0 auto;
+		margin-bottom: 3px;
+		margin-top: 3px;
+		width: 80%;
 	}
 
 	.carousel-inner > .item > img,
@@ -57,8 +65,7 @@ h3{
 
 	body{
 		background-color: 	#7fc9b1;
-		color: #003333;
-		back
+		color: #082020;
 	}
 	body img{
 		width: 60%;
@@ -75,7 +82,11 @@ h3{
 	body{
 		background-color: #7fc9b1;
 	}
-
+footer a{
+		display: inline-block;
+		margin: 0 auto;
+		width: 40%;
+	}
 
 
 }
@@ -91,6 +102,10 @@ h3{
 	#flag{
 		float: right;
 		padding-left: 2%;
+	}
+	footer a{
+		display: inline-block;
+		width: 30%;
 	}
 	figure { 
 	  display: block; 

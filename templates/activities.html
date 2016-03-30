@@ -18,35 +18,48 @@
 {% block content %}
 <div class="container text-center"> 
   <div class="row">
-	<div class="col-sm-12 col-md-6 col-lg-4">
 	<h3>Skiing</h3>
-	<p>In the summer these places have other events and activites for visiters to participate in, so no matter the time of the year one is never bored.</p>
-	
+	<p>In the summer the ski resorts have other events and activites for visiters to participate in, so no matter the time of the year one is never bored.</p>
+	<div class="col-sm-12 col-md-6 col-lg-4">
 		<h4>Vail</h4>
 			<p>Vail has 31 lifts giving peiple access to 195 trails and over 5000 acres of a variety of terrain. People of all levels are welcome, from easy to extreme terrain everybody can find something to ski or snowbaord. There are also three terrain parks. They also offer tubing, ski biking, snowshoeing.</p>
-			<img src="static/BlueSky.jpg" alt="Blue Sky Basin">
+<!-- 			<img src="static/BlueSky.jpg" alt="Blue Sky Basin"> -->
+			<a class="twitter-timeline" href="https://twitter.com/vailmtn" data-widget-id="715281133148246016">Tweets by @vailmtn</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
 		<h4>Breckenridge</h4>
 			<p>Breckenridge has almost 3000 acres spread acrossfive different peaks. There are 34 lifts connecting people to 187 different runs.  Breckenridge also has one of the largest historic districts in Colorado. The ski area was opened on Decemer 16, 1961, even though the town itself had been around for decades.</p>
 			<img src="static/Breckenridge.jpg" alt="Breckenridge Panorama">
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
 		<h4>Winter Park</h4>
 			<p>Winter Park has 25 chairlifts and 154 runs, as well as 7 terrain parks and 3081 acres. It is one of the longest continuously operated ski lifts. Winter Park is compirsed on two mountiains, Mary Jane and Winter Park. They also offer tubing, ski biking, and snowcat tours.</p>
 			<img src="static/WinterPark.jpg" alt="Winter Park Trail Map">
+	</div>
+	<div class="col-sm-12 col-md-6 col-lg-4">
 		<h4>Beaver Creek</h4>
 			<p>Beaver Creek has 24 lifts with 150 runs spanning 1832 acres. There is snoeshoing and crosscountry skiing if you need a break from downhill skiing or snowboarding.</p>
 			<img src="static/BeaverCreek.jpg" alt="Beaver Creek Ski Resort">
 	</div>
-	<div class="col-sm-12 col-md-6 col-lg-4">
+</div>
+	<div class="row">
 		<h3>Hiking</h3>
+		<div class="col-sm-12 col-md-6 col-lg-4">
 			<h4>Chautauqua Park</h4>
 				<p>There are about eight different trails in Chautauqua. The longest one is the Mesa Trail, which is about 6.9 miles. The first-second Flatiron Trail is one of the more popular ones. Although it is only just over a mile long it also gains the most elevation, 960 ft.</p>
 				<img src="static/chataqua.jpg" alt="Chautauqua Park">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
 			<h4>Mount Sanitas</h4>
 				<p>Is a 3.1 mile loop that is located in Boulder.</p>
 				<img src="static/MountSanitas.jpg" alt="Veiw From top of Mount Sanitas">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
 			<h4>14ers</h4>
 				<p>There are 53 fourteeners in the State of Colorado, making it the State with the most fourteeners. Mt. Elbert, Mt. Massive, Mt. Harvard, Blanca Peak, and La Plata Peak are the five tallest ones in the state, respectively.</p>
 				<img src="static/MountElbert.JPG" alt="Mount Elbert">
-	</div>
+		</div>
 </div>
 </div>
 
@@ -56,10 +69,8 @@
 
 
 {% block foot %}
-<!-- http://www.beavercreek.com
-http://www.winterparkresort.com
-http://www.breckenridge.com
-https://bouldercolorado.gov/osmp/mount-sanitas-trailhead
-https://bouldercolorado.gov/osmp/chautauqua-trailhead
- -->
+<a href="http://www.beavercreek.com">Beaver Creek</a>
+<a href="http://www.winterparkresort.com">Winter Park</a>
+<a href="http://www.breckenridge.com">Breckenridge</a>
+<a href="https://bouldercolorado.gov/trails-and-recreation">Hiking</a>
 {% endblock %}
