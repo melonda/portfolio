@@ -24,6 +24,7 @@ h4{
 	font-weight: bold;
 	font-size: 25px;
 }
+
 #navigation1 .navigation-1, #navigation2 .navigation-2, #navigation3 .navigation-3, #navigation4 .navigation-4{
 	background-color: pink;
 	color: #FFFF00;
@@ -47,11 +48,22 @@ h4{
 		margin-top: 3px;
 		width: 80%;
 	}
+	#top{
+		font-weight: bold;
+		color: #000000;
+		border: none;
+		background-color: transparent;
+		display:block;
+		text-align:center;
+	}	
 
 	.carousel-inner > .item > img,
   	.carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+  }
+  iframe{
+  	border: 0px;
   }
 
 
@@ -100,9 +112,26 @@ footer a{
 		background-repeat: no-repeat;
 
 	}
-	#flag{
-		float: right;
-		padding-left: 2%;
+	.grow {
+	 	transition: all .2s ease-in-out; 
+	 	cursor: pointer; 
+	 	cursor: hand; 
+	 	cursor: zoom-in;
+	}
+	.grow:hover { 
+		transform: scale(1.9); 
+		overflow: auto;
+		width: 100%;
+	}
+	.growing {
+	 	transition: all .2s ease-in-out; 
+	}
+	.growing:hover { 
+		transform: scale(1.2); 
+		overflow: auto;
+		max-width: 1500px;  // or width instead of max-width
+  		max-height: 1500px; // or height instead of max-height
+		width: 100%;
 	}
 	footer a{
 		display: inline-block;

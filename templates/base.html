@@ -6,7 +6,7 @@
 {% block header %}
 	Put title here
 {% endblock %}
-
+<title>Colorado</title>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -17,7 +17,25 @@
 
 <link rel="stylesheet" href="static/style.css">
 
+<script>
+	function calcTime(city, offset) {
+    // create Date object for current location
+    var d = new Date();
 
+    // convert to msec
+    // subtract local time zone offset
+    // get UTC time in msec
+    var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
+
+    // create new Date object for different city
+    // using supplied offset
+    var nd = new Date(utc + (3600000*offset));
+
+    // return time as a string
+    return "The local time for "+ city +" is "+ nd.toLocaleString();
+}
+document.write(calcTime('Colorado', '+2')).fontcolor('red');
+</script>
 	
 </head>
 
@@ -29,6 +47,10 @@
 	<header>
 
 <h1 class="title">Colorado</h1>
+
+	
+
+
 
 		<!-- This also changes from page to page. Createsthe title for each page -->
 		{% block head %}
@@ -77,9 +99,11 @@
 	I should never see this content.  It should be replaced.
 	{% endblock %}
 
+
+
+
+
 	<footer>
-
-
 
 
 		<a href = "https://www.colorado.gov">Colorado</a> 
@@ -88,6 +112,9 @@
 
 		{% block foot %}
 		{% endblock %}
+
+		<!-- Jumps to top of the page -->
+	<a href="#Top" id="top">Go to the top of the page</a>
 
 		<p>Copyright &copy; Meagan Londa from the University of Michigan</p>
 	</footer>
