@@ -112,6 +112,9 @@
 		width: 100%;
 	}
 	.growing {
+		cursor: pointer; 
+	 	cursor: hand; 
+	 	cursor: zoom-in;
 	 	transition: all .2s ease-in-out; 
 	}
 	.growing:hover { 
