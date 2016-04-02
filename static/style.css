@@ -8,6 +8,12 @@
 		background-size: contain;
 		color: blue;
 	}
+	#time{
+		float: right;
+	}
+	#open{
+		text-align: right;
+	}
 	header .title{
 		font-weight: bold;
 		font-size: 55px;
@@ -49,8 +55,6 @@
 	footer{
 		display: block;
 		text-align: center;
-
-/*		width: 100%;*/
 	}
 	#top{
 		font-weight: bold;
@@ -79,7 +83,6 @@
 	body{
 		background-color: #7fc9b1;
 		color: #104545;
-		/*#082020*/
 	}
 	body img{
 		width: 75%;

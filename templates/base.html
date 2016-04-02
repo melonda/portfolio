@@ -33,17 +33,21 @@
 }
 document.write(calcTime('Colorado', '+2'));
  -->
-<h2>The time in Colorado is:</h2>	
-<iframe src="http://free.timeanddate.com/clock/i54xqcg9/n75/fn6/fs18/fcffdf00/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th2/ta1" width="415" height="42"></iframe>
-</head>
+<title>Colorado</title>
 
+
+
+</head>
 
 {% block body %}
 <!-- <body> -->
 {% endblock %}
-	<header>
 
-<h1 class="title">Colorado</h1>
+<header>
+
+
+
+<h1 class="title flag">Colorado</h1>
 
 		<!-- This also changes from page to page. Createsthe title for each page -->
 		{% block head %}
@@ -72,6 +76,13 @@ document.write(calcTime('Colorado', '+2'));
 </nav>
 
 	</header>
+
+	
+<h1 id="open">The time in Colorado is:</h1>	
+<iframe src="http://free.timeanddate.com/clock/i54xqcg9/n75/fn6/fs18/fcffdf00/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th2/ta1" width="415" height="42" id="time"></iframe>
+
+<br>
+
 
 	<!-- Also changes from page to page. Creates -->
 	{% block content %}
