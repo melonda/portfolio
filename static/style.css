@@ -8,12 +8,8 @@
 		background-size: contain;
 		color: blue;
 	}
-	#time{
-		float: right;
-	}
-	#open{
-		text-align: right;
-	}
+
+	
 	header .title{
 		font-weight: bold;
 		font-size: 55px;
@@ -92,6 +88,17 @@
 		display: block;
 		margin: 0 auto;
 	}
+	#open{
+		text-align: center;
+	}
+	#time{
+		width: 390px;
+    	height: 43px;
+    	display: block;
+    	margin: 0 auto;
+
+
+	}
 }
 
 
@@ -107,6 +114,12 @@
 	body img{
 		width: 75%;
 		padding: 2%;
+	}
+	#open{
+		text-align: right;
+	}
+	#time{
+		float: right;
 	}
 }
 
@@ -130,19 +143,9 @@
 		overflow: auto;
 		width: 100%;
 	}
-	.growing {
-		cursor: pointer; 
-	 	cursor: hand; 
-	 	cursor: zoom-in;
-	 	transition: all .2s ease-in-out; 
-	}
-	.growing:hover { 
-		transform: scale(1.2); 
-		overflow: auto;
-		max-width: 1500px;  // or width instead of max-width
-  		max-height: 1500px; // or height instead of max-height
-		width: 100%;
-	}
+
+
+
 	footer a{
 		display: inline-block;
 		width: 30%;
